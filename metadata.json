@@ -1,0 +1,6 @@
+{
+  "name": "Minha Receita App",
+  "description": "App completo de receitas com 200 opções para Air Fryer, Pães sem glúten artesanais, Saladas no Pote com guia de camadas e Bolos fofinhos sem glúten.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

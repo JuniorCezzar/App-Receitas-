@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #FAF8F3;
+    color: #1A2E22;
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom Receiteria styling */
+.brand-green {
+  color: #0A2A1D;
+}
+
+.bg-brand-green {
+  background-color: #0A2A1D;
+}
+
+.bg-brand-green-dark {
+  background-color: #072016;
+}
+
+.brand-yellow {
+  color: #F5BA31;
+}
+
+.bg-brand-yellow {
+  background-color: #F5BA31;
+}
+
+.border-brand-yellow {
+  border-color: #F5BA31;
+}
+
+.bg-cream {
+  background-color: #F5F2EB;
+}
+
+.bg-cream-card {
+  background-color: #FAF8F3;
+}
+
+/* Hide scrollbars for story reels */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
